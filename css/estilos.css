@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Asegura que el contenido se apile verticalmente */
+  }
+  .container {
+    display: flex;
+    flex-direction: row; /* Mantiene el diseño en fila */
+    align-items: flex-start; /* Alinea los elementos al inicio de la dirección transversal */
+    justify-content: center; /* Centra los elementos en la dirección principal */
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .profile-text, .profile-image {
+    flex: 1; /* Ambos toman la mitad del espacio disponible */
+    display: flex; /* Habilita flexbox para centrado interno */
+    flex-direction: column; /* Alinea el contenido internamente en columna */
+    align-items: center; /* Centra el contenido internamente en horizontal */
+    justify-content: center; /* Centra el contenido internamente en vertical */
+  }
+  .profile-image img {
+    border-radius: 50%;
+    height: auto;
+    max-height: 350px; /* Ajusta este valor según la altura del texto */
+    object-fit: cover;
+    width: auto;
+  }
+
+  hr {
+  border: none;
+  border-top: 1px solid #000;
+  width: 70%;
+}
+
+h2.ui-ux-designer {
+  background-color: #003366; /* Fondo azul oscuro */
+  border-radius: 20px; /* Bordes ovalados */
+  color: white; /* Texto en color blanco */
+  display: inline-block; /* Hace que el fondo se ajuste al texto */
+  padding: 10px 20px; /* Espaciado interno alrededor del texto */
+  font-size: 1.5em; /* Tamaño de fuente más grande */
+  margin-top: 20px; /* Espacio antes del título */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+}
+
+h1 {
+  margin: 0; /* Elimina el margen predeterminado */
+  font-family: DX-Rigraf SemBd Exp; /* Fuente personalizada */
+}
+
+h2.section-title {
+  background-color: #ff6600; /* Fondo naranja */
+  border-radius: 20px; /* Bordes ovalados */
+  color: white; /* Texto en color blanco */
+  display: inline-block; /* Hace que el fondo se ajuste al texto */
+  padding: 10px 20px; /* Espaciado interno alrededor del texto */
+  font-size: 1.5em; /* Tamaño de fuente más grande */
+  margin-top: 20px; /* Espacio antes del título */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+}
+
+h2.section-title-my-skills {
+  background-color: #1a1a1a; /* Fondo azul oscuro casi negro */
+  border-radius: 20px; /* Bordes ovalados */
+  color: white; /* Texto en color blanco */
+  display: inline-block; /* Hace que el fondo se ajuste al texto */
+  padding: 10px 20px; /* Espaciado interno alrededor del texto */
+  font-size: 1.5em; /* Tamaño de fuente más grande */
+  margin-top: 20px; /* Espacio antes del título */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+}
+
+.education-box {
+  background-color: #f2f2f2; /* Fondo gris claro */
+  border-radius: 20px; /* Bordes ovalados */
+  padding: 20px; /* Espaciado interno alrededor del texto */
+  margin-top: 20px; /* Espacio antes de la caja */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+}
+
+.degree {
+  margin-bottom: 20px; /* Espacio entre los grados */
+}
+
+.degree h3 {
+  color: #1a1a1a; /* Texto en color casi negro */
+  font-size: 1.5em; /* Tamaño de fuente más grande */
+  margin-bottom: 10px; /* Espacio después del título */
+}
+
+.degree p {
+  color: #1a1a1a; /* Texto en color casi negro */
+  margin-bottom: 10px; /* Espacio después de cada línea */
+}
+
+.skills-container {
+  background-color: #f2f2f2; /* Fondo gris claro */
+  border-radius: 20px; /* Bordes ovalados */
+  padding: 20px; /* Espaciado interno alrededor del texto */
+  margin-top: 20px; /* Espacio antes de la caja */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 20px; /* Espacio entre las habilidades */
+}
+
+.skill p {
+  color: #1a1a1a; /* Texto en color casi negro */
+  margin-bottom: 10px; /* Espacio después de cada línea */
+}
+
+.skill-bar {
+  height: 20px;
+  background-color: #1a1a1a; /* Barra de habilidad en color casi negro */
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.container, .skills-container {
+  flex: 1 0 45%; /* Esto permite que los contenedores crezcan y se encogen, pero no más del 45% del ancho total */
+  margin: 10px; /* Añade un poco de margen alrededor de cada contenedor */
+  min-height: 500px;
+}
+
+  
+  
+  
+  
+
+
+
+
+
+
+
